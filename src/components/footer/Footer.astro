@@ -1,0 +1,55 @@
+---
+import IconFacebook from "../../assets/icon-facebook.svg";
+import IconInstagram from "../../assets/icon-instagram.svg";
+import IconPinterest from "../../assets/icon-pinterest.svg";
+import IconTwitter from "../../assets/icon-twitter.svg";
+---
+
+<footer
+	class={`px-2 h-[300px] flex flex-col justify-center gap-8 items-center bg-[var(--primary-color-green-500)]`}
+>
+	<h3 class="text-[var(--primary-color-green-800)] font-bold text-4xl">
+		sunnyside
+	</h3>
+	<ul
+		class="flex justify-center gap-16 text-[var(--primary-color-green-800)] w-full px-8"
+	>
+		<li class="hover:text-[var(--neutral-color-white)]">
+			<a href="/">About</a>
+		</li>
+		<li class="hover:text-[var(--neutral-color-white)]">
+			<a href="/">Services</a>
+		</li>
+		<li class="hover:text-[var(--neutral-color-white)]">
+			<a href="/">Projects</a>
+		</li>
+	</ul>
+	<ul class="flex gap-4 w-full justify-center px-8 mt-8">
+		<li>
+			<a href="/">
+				<img src={IconFacebook.src} alt="Facebook" />
+			</a>
+		</li>
+		<li>
+			<a href="/">
+				<img src={IconInstagram.src} alt="Instagram" />
+			</a>
+		</li>
+		<li>
+			<a href="/">
+				<img src={IconPinterest.src} alt="Pinterest" />
+			</a>
+		</li>
+		<li>
+			<a href="/">
+				<img src={IconTwitter.src} alt="Twitter" />
+			</a>
+		</li>
+	</ul>
+	<p class="text-[var(--neutral-color-white)]">
+		&copy; Development by @josuesss72. All rights reserved. <a
+			href="/"
+			class="underline">Github</a
+		>
+	</p>
+</footer>
